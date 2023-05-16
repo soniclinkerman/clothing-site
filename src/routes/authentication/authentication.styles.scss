@@ -4,3 +4,10 @@
   width: 900px;
   margin: 30px auto;
 }
+
+@media screen and (max-width: 600px) {
+  .authentication-container {
+    display: block;
+    width: 1000px;
+  }
+}

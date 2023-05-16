@@ -9,4 +9,14 @@
   font-size: 38px;
   margin-bottom: 25px;
   text-align: center;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 850px) {
+  .category-container {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 50px;
+    grid-template-columns: none;
+  }
 }
